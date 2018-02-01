@@ -2,6 +2,9 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+  ofSetBackgroundColor(0,0,0);
+    ofSetCircleResolution(100);
+    ofSetCurveResolution(100);
 
 }
 
