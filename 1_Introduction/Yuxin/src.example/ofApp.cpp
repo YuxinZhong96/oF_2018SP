@@ -2,7 +2,9 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-
+    ofSetBackgroundColor(0,0,0);
+    ofSetCircleResolution(100);
+    ofSetCurveResolution(100);
 }
 
 //--------------------------------------------------------------
@@ -12,8 +14,22 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-  ofSetColor(255,0,0);
-  ofDrawCircle(300, 300, 100);
+   ofSetColor(241,124,103);
+    ofDrawCircle(100, 100, 50);
+    ofSetColor(241, 191, 69);
+    ofDrawCurve(12, 34, 156, 278, 190, 120, 213, 560);
+    ofSetColor(241, 191, 69);
+    ofDrawCurve(100, 100, 245, 89, 650, 90, 630, 201);
+    ofSetColor(134, 193, 102);
+    ofSetLineWidth(10.0f);
+    ofDrawLine(34, 56, 1000, 900);
+    ofSetColor(46,169,223);
+    ofDrawRectangle(700, 50, 150, 500);
+    ofSetColor(250, 252, 242);
+    ofDrawEllipse(600, 300, 445, 121);
+    ofSetColor(255, 177, 27);
+    ofDrawTriangle(45, 191, 213, 389, 105, 651);
+
 }
 
 //--------------------------------------------------------------
